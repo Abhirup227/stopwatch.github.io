@@ -1,0 +1,67 @@
+body{
+    background-image: url(bg2.jpg);
+    background-position: initial;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#currentTime{
+    font-weight: bolder;
+    font-size: 50px;
+    font-family: cursive;
+    letter-spacing: 5px;
+    padding-left: 220px;
+    padding-top: 116px;
+    color: firebrick;
+}
+
+#date{
+    color: firebrick;
+    text-align: 130px;
+    padding-left: 320px;
+    font-size: xx-large;
+    font-weight: bold;
+    padding-top: 24px;
+}
+
+#alarmSet{
+    padding-left: 300px;
+    padding-top: 30px;
+}
+
+#setBtn{
+    height: 57px;
+    width: 160px;
+    font-size: large;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: lightseagreen;
+}
+
+#settime{
+    padding-left: 175px;
+    padding-top: 20px;
+    visibility: hidden;
+
+}
+
+#setHr,#setMin,#setSec{
+    font-weight: bold;
+    height: 45px;
+    width: 115px;
+    text-align: center;
+    font-size: larger;
+}
+
+#saveAlarm{
+    height: 57px;
+    width: 160px;
+    font-size: large;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 25px;
+    margin-left: 114px;
+    background-color: deeppink;
+}
